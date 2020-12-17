@@ -6,6 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -44,6 +45,8 @@
     <div class="text-center">
       <br><br><br><br>
       <img src="images/profile.jpg" class="rounded-circle" alt="Picture of Me" width="300" height="300">
+      <h1>James Fleming</h1>
+      <h2>Software Development</h2>
     </div>
 
 
@@ -73,7 +76,14 @@
           </div>
           <div id="collapseTwo" class="collapse" data-parent="#accordion">
             <div class="card-body">
-              Hobbies
+              <dl>
+                <dt>Model making</dt>
+                <dd>- I mainly work on 1/64 diecast and 1/24 plastic cars</dd>
+                <dt>Five-a-side Football</dt>
+                <dd>- Pre-Covid i would play 3 time a week</dd>
+                <dt>Archery</dt>
+                <dd>- I competed in two intervarsity competitions</dd>
+              </dl>
             </div>
           </div>
         </div>
@@ -84,7 +94,12 @@
           </div>
           <div id="collapseThree" class="collapse" data-parent="#accordion">
             <div class="card-body">
-              interests
+              <dl>
+                <dt>Languages</dt>
+                <dd>- Currently learning Dutch through Duolingo</dd>
+                <dt>Motorsport</dt>
+                <dd>- Pre-Covid was a regular attendee at my local circuit Mondello</dd>
+              </dl>
             </div>
           </div>
         </div>
@@ -101,9 +116,17 @@
           <div class="card-header">
             <a class="card-link" data-toggle="collapse" href="#collapseFour">DEASP</a>
           </div>
-          <div id="collapseFour" class="collapse show" data-parent="#accordion">
+          <div id="collapseFour" class="collapse" data-parent="#accordion">
             <div class="card-body">
               DEASP
+              <p>
+                For my internship I worked for 6 months in the DEASP ( Dept. of Employment Affairs and Social
+                Protection) as part of the Performance Monitoring team. We monitored the performance of the system and
+                was involved in ensuring that the monthly releases did not affect the performance of it. For the
+                majority of my internship I examined the logs at rest from the day before, looking for potential issues
+                and explaining any of these issues. I was also involved in manual testing of the system before it was
+                released.
+              </p>
             </div>
           </div>
         </div>
@@ -199,13 +222,13 @@
               <br />
 
               <!--table of results-->
-              <table style="width:100%">
+              <table>
                 <tr>
                   <th>Subject</th>
                   <th>Result</th>
                 </tr>
                 <tr>
-                  <td>Av Machine Learning</td>
+                  <td>Adv Machine Learning</td>
                   <td>TBC</td>
                 </tr>
                 <tr>
@@ -220,13 +243,10 @@
                   <td>Information Management</td>
                   <td>TBC</td>
                 </tr>
-                <tr>Enterprise Performance Architecture</td>
+                <td>Enterprise Performance Architecture</td>
                   <td>TBC</td>
                 </tr>
-                <tr>
-                  <td>Data Analysis</td>
-                  <td>B</td>
-                </tr>
+                
               </table>
             </div>
           </div>
@@ -259,7 +279,7 @@
               <br />
 
               <!--table of Results-->
-              <table style="width:100%">
+              <table>
                 <tr>
                   <th>Subject</th>
                   <th>Result</th>
@@ -274,7 +294,7 @@
               <br />
 
               <!--table of results-->
-              <table style="width:100%">
+              <table>
                 <tr>
                   <th>Subject</th>
                   <th>Result</th>
@@ -334,7 +354,7 @@
               <br />
 
               <!--table of Results-->
-              <table style="width:100%">
+              <table>
                 <tr>
                   <th>Subject</th>
                   <th>Result</th>
@@ -368,7 +388,7 @@
               <br />
 
               <!--table of results-->
-              <table style="width:100%">
+              <table>
                 <tr>
                   <th>Subject</th>
                   <th>Result</th>
@@ -428,7 +448,7 @@
               <br />
 
               <!--table of Results-->
-              <table style="width:100%">
+              <table>
                 <tr>
                   <th>Subject</th>
                   <th>Result</th>
@@ -462,7 +482,7 @@
               <br />
 
               <!--table of results-->
-              <table style="width:100%">
+              <table>
                 <tr>
                   <th>Subject</th>
                   <th>Result</th>
@@ -498,7 +518,7 @@
         </div>
         <div id="Plc" class="container tab-pane fade">
           <br />
-          <table style="width:100%">
+          <table>
             <tr>
               <th>Subject</th>
               <th>Result</th>
@@ -556,20 +576,24 @@
           <div class="card-header">
             <a class="card-link" data-toggle="collapse" href="#collapseSeven">4th Year Project</a>
           </div>
-          <div id="collapseSeven" class="collapse show" data-parent="#accordion">
+          <div id="collapseSeven" class="collapse" data-parent="#accordion">
             <div class="card-body">
-              In Progress
+              <p>
+                For my 4th year project I am currently building a Premier League predictions Application. It is using Asp.Net.Core, an Azure SQL database and utilises an Api from RapidApi called API- Football  
+              </p>
             </div>
           </div>
         </div>
 
         <div class="card">
           <div class="card-header">
-            <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">2nd Year Project</a>
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseEight">2nd Year Project</a>
           </div>
-          <div id="collapseFive" class="collapse" data-parent="#accordion">
+          <div id="collapseEight" class="collapse" data-parent="#accordion">
             <div class="card-body">
-              2nd Year Project
+             <p>
+              Me and my team built a Comic Book Store website in Java Play Framework  
+             </p>
             </div>
           </div>
         </div>
